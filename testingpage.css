@@ -280,74 +280,82 @@
     }
 }
 
-/* 
+@media (min-width: 700px) and (max-height: 1024px) {
+    #popup-capabilityinfo {
+        height: auto;
+    }
+}
+    /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 699px) {
+    @media (min-width: 320px) and (max-width: 699px) {
 
-    /* CSS */
-    .dataafterfilters {
-        width: 100%;
+        /* CSS */
+        .dataafterfilters {
+            width: 100%;
+        }
+
+        .mainContainer {
+            display: block;
+        }
+
+        .filters {
+            width: 69%;
+            margin-left: 62px;
+        }
+
+        #popup-capabilityinfo {
+            width: 69%;
+            margin-left: 62px;
+            height: 5%;
+        }
+
+        .missionImg {
+            margin-left: 12%;
+        }
+
+        .footerforapp {
+            margin-left: 29%;
+        }
+
+        .filterslaunchyear {
+            padding-left: 36%;
+        }
+
+        .launcyearStroke {
+            width: 30%;
+            margin-left: 30%;
+        }
+
+        .filterslaunchsucess {
+            padding-left: 30%;
+        }
+
+        .filterslaunchStroke {
+            width: 40%;
+            margin-left: 24%;
+        }
+
+        .filterslandsucess {
+            padding-left: 30%;
+        }
+
+        .filterslandStroke {
+            width: 40%;
+            margin-left: 24%;
+        }
     }
 
-    .mainContainer {
-        display: block;
-    }
-
-    .filters {
-        width: 69%;
-        margin-left: 62px;
-    }
-
-    #popup-capabilityinfo {
-        width: 69%;
-        margin-left: 62px;
-        height: 5%;
-    }
-
-    .missionImg {
-        margin-left: 12%;
-    }
 
     .footerforapp {
-        margin-left: 29%;
+        display: flex;
+        margin-left: 46%;
     }
 
-    .filterslaunchyear {
-        padding-left: 36%;
+
+
+    .selected {
+        background-color: #669900;
     }
-
-    .launcyearStroke {
-        width: 30%;
-        margin-left: 30%;
-    }
-
-    .filterslaunchsucess {
-        padding-left: 30%;
-    }
-    .filterslaunchStroke {
-        width: 40%;
-        margin-left: 24%;
-    }
-    .filterslandsucess {
-        padding-left: 30%;
-    }
-    .filterslandStroke {
-        width: 40%;
-        margin-left: 24%;
-    }
-}
-
-
-.footerforapp {
-    display: flex;
-    margin-left: 46%;
-}
-
-
-
-.selected {
-    background-color: #669900;
-}
